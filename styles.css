@@ -52,3 +52,48 @@ body {
     color: hsl(229, 25%, 31%);
     font-size: 48px;
 }
+
+.hand {
+    border-radius: 50%;
+    /* padding: 25px; */
+    background-color: #fff;
+    height: 150px;
+    position: absolute;
+}
+
+.hand-image {
+    position: relative;
+    top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.paper {
+    border: 15px solid hsl(230, 89%, 62%);
+    /* margin-right: 20px; */
+    position: relative;
+    left: -200px;
+
+}
+
+.scissors {
+    border: 15px solid hsl(39, 89%, 49%);
+    margin-left: 20px;
+}  
+
+.rock {
+    border: 15px solid hsl(349, 71%, 52%);
+    margin-left: 20px;
+}
+
+.hands {
+    width: 443px;
+    height: 283px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    background-image: url(/images/bg-triangle.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 240px;
+}

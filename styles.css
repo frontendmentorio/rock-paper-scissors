@@ -112,3 +112,21 @@ body {
 .hands .hand:hover{
     transform: translate3d(0px, -15px, 0px);
 }
+
+/* Add a rules button */
+.rules-btn {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background: none;
+    border-radius: 0.6rem;
+    border-color: #fff;
+    color: white;
+    padding: 0.6rem 2.5rem;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 23px;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+ 

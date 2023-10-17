@@ -103,3 +103,12 @@ body {
     position: absolute;
     top: 240px;
 }
+
+.hands  .hand{
+    cursor: pointer;
+    transition: 0.20s;
+}
+
+.hands .hand:hover{
+    transform: translate3d(0px, -15px, 0px);
+}

@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to right, #000428, #004e92); 
+    color: #ffffff; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  h1 {
+    font-size: 2em; 
+  }
+  
+  #score {
+    font-size: 1.5em; 
+  }
+  
+  button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  #rock {
+    background-color: #f44336; 
+  }
+  
+  #paper {
+    background-color: #008CBA; 
+  }
+  
+  #scissors {
+    background-color: #f39c12; 
+  }

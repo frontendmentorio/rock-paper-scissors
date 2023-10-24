@@ -130,3 +130,34 @@ body {
     cursor: pointer;
   }
  
+.rules{
+    position: relative;
+    margin-top: 100px;
+    padding: 20px;
+}
+.rules_container{
+    background-color: #fff;
+    padding: 30px 30px;
+    align-items: center;
+    border-radius: 10px;
+}
+.rules_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+    
+}
+.close_btn{
+ border: none;
+ outline: none;
+ background: none;
+ font-size: 2rem;
+ cursor: pointer;
+}
+.image-rules{
+   padding: 1rem 2rem;
+}
+.rules_container .h2 {
+    color: hsl(229, 25%, 31%);
+}

@@ -132,7 +132,7 @@ body {
  
 .rules{
     position: relative;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding: 20px;
 }
 .rules_container{

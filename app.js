@@ -10,7 +10,7 @@ function showRules() {
 function hideRules() {
   rulesContainer.style.display = "none";
 }
-
+ggggggggg
 // Attach event listener to the "RULES" button
 rulesButton.addEventListener("click", showRules);
 

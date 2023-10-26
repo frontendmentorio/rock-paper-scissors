@@ -7,33 +7,47 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-
   <title>Rock Paper Scissors</title>
- 
+  <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-<h1>
-Rock <br />
-Paper <br />
-Scissors
-</h1>
+  <div class="container">
+    <div class="score-header">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Logo">
+      </div>
+      <div class="score">
+        <p class="score-name">SCORE</p>
+        <h1 class="score-number">13</h1>
+      </div>
+    </div>
+    <div class="hands">
+      <div class="button hand-paper">
+        <img src="../rock-paper-scissors/images/icon-paper.svg" alt="Hand paper" class="hand-image">
+      </div>
+      <div class="button hand-scissors">
+        <img src="../rock-paper-scissors/images/icon-scissors.svg" alt="Hand scissors" class="hand-image">
+      </div>
+      <div class="button hand-rock">
+        <img src="../rock-paper-scissors/images/icon-rock.svg" alt="Hand rock" class="hand-image">
+      </div>
+    </div>
+    <button class="rules-btn" tabindex="1">RULES</button>
 
-<div id="score">Score :12</div>
+    <div id="myModal" class="modal">
+      <div id="imageDiv" style="display: none;">
+        <img src="./images/image-rules.svg" alt="Rules">
+        <button id="closeBtn">Close</button>
+      </div>
 
-<button id="rock">Rock</button>
-<button id="paper">Paper</button>
-<button id="scissors">Scissors</button>
-
-<button id="rules">Rules</button>
-
-<div class="attribution">
-Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-Coded by <a href="#">Your Name Here</a>.
-</div>
-
+    </div>
+  
+  </div>
+  <script type="module" src="./ main.js"></script>
+  
 </body>
 
 </html>

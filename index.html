@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Rock Paper Scissors</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="./app.js"></script>
 
 </head>
 
@@ -35,16 +36,20 @@
         <img src="../rock-paper-scissors/images/icon-rock.svg" alt="Hand rock" class="hand-image">
       </div>
     </div>
-    <button class="rules-btn" tabindex="1">RULES</button>
+    <button class="rules-btn" tabindex="1" id="rulesButton">RULES</button>
 
-    <div id="myModal" class="modal">
-      <div id="imageDiv" style="display: none;">
-        <img src="./images/image-rules.svg" alt="Rules">
-        <button id="closeBtn">Close</button>
+     <div class="rules">
+      <div class="rules_container">
+        <div class="rules_header">
+          <h2>RULES</h2>
+          <button class="close_btn">
+            <img src="./images/icon-close.svg" alt="close button">
+          </button>
+        </div>
+        <img src="./images/image-rules.svg" alt="" class="image-rules">
       </div>
+     </div>
 
-    </div>
-  
   </div>
   <script type="module" src="./ main.js"></script>
   

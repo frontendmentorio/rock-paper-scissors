@@ -94,38 +94,49 @@
 }
 
 .rules-btn {
-  position: absolute;
-  top: 90%;
-  right: 3%;
-  background-color: transparent;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: solid rgb(248, 244, 244, 0.3) 2px;
-  cursor: pointer;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background: none;
+    border-radius: 0.6rem;
+    border-color: #fff;
+    color: white;
+    padding: 0.6rem 2.5rem;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 23px;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+ 
+.rules{
+    position: relative;
+    /* margin-top: 100px; */
+    padding: 20px;
 }
-
-#imageDiv {
-  display: none;
-  background-color: #fefefe;
-  margin: 15% auto; 
-  padding: 20px;
-  border: 1px solid #888;
-  width: 100%;
+.rules_container{
+    background-color: #fff;
+    padding: 30px 30px;
+    align-items: center;
+    border-radius: 10px;
 }
-
-.myModal {
-  position: relative;
-
+.rules_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+    
 }
-
-#closeBtn {
-position: absolute;
-top: 20%;
+.close_btn{
+ border: none;
+ outline: none;
+ background: none;
+ font-size: 2rem;
+ cursor: pointer;
 }
-
-/* #imageDiv.show {
-  display: block;
-} */
+.image-rules{
+   padding: 1rem 2rem;
+}
+.rules_container .h2 {
+    color: hsl(229, 25%, 31%);
+}

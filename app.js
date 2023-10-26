@@ -1,13 +1,3 @@
-// const btnRules = document.querySelector(".rules-btn");
-// const bntColse = document.querySelector(".close_btn");
-// const rules = document.querySelector(".rules");
-
-// btnRules.addEventListener("click", () => {
-//     rules.classList.toggle("show-rules");
-// });
-// bntColse.addEventListener("click", () => {
-//     rules.classList.toggle("show-rules");
-// });
 
 const rulesButton = document.getElementById("rulesButton");
 const rules = document.querySelector(".rules");

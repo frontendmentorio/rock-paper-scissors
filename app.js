@@ -10,12 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     rules.style.display = "block";
 
   }
-  // function isrulesshow (){
-  //   if (rules.style.display !== "none") 
-  //     return true;
-  //   else 
-  //       return false; 
-  // }
+
   function toggleShowRules() {
     if (isRulesShown())
       hideRules();
@@ -44,4 +39,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Attach event listener to the "close" button
   closeButton.addEventListener("click", hideRules);
-});
+  
+}); 
+  const pickUserHand = (hand) => {
+    console.log(hand);
+
+    let hands = document.querySelector(".hands");
+    hands.style.display = "none";
+
+    let rulesButton = document.querySelector(".rules-btn");
+    rulesButton.style.display = "none";
+  }
+
+

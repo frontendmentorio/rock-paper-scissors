@@ -33,13 +33,13 @@
     </div>
     <div class="hands">
       <div class="hand paper">
-        <img src="/images/icon-paper.svg" alt="" class="hand-image">
+        <img src="/images/icon-paper.svg" alt="" class="hand-image" onclick="pickUserHand('paper')">
       </div>
       <div class="hand scissors">
-        <img src="/images/icon-scissors.svg" alt="" class="hand-image">
+        <img src="/images/icon-scissors.svg" alt="" class="hand-image" onclick="pickUserHand('scissors')">
       </div>
       <div class="hand rock">
-        <img src="/images/icon-rock.svg" alt="" class="hand-image">
+        <img src="/images/icon-rock.svg" alt="" class="hand-image" onclick="pickUserHand('rock')">
       </div>
     </div>
     <button class="rules-btn" tabindex="1" id="rulesButton">RULES</button>
@@ -55,7 +55,24 @@
         <img src="./images/image-rules.svg" alt="" class="image-rules">
       </div>
      </div>
-
+           <div class="container2">
+                <div class="userhand">
+                    <h1>YOU PICKED</h1>
+                    <div class="handImageContainer">
+                          <img src="./images/icon-paper.svg" alt="paper-hand"  class="paper2">
+                    </div>
+                </div>
+                <div class="result">
+                  <div class="decision"><h1>YOU WIN</h1></div>
+                  <div class="newGame">PLAY AGAIN</div>
+                </div>
+                <div class="computerhand">
+                         <h1>THE HOUSE PICKED</h1>
+                         <div class="handImageContainer">
+                          <img src="./images/icon-scissors.svg" alt="scissors" class="scissors2">
+                         </div>
+                </div>
+           </div>
   </div>
   
 </body>

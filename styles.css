@@ -1,119 +1,98 @@
-* { margin: 0;
-padding: 0;
-box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body {
-    background: radial-gradient(circle at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background: linear-gradient(to top, #000428, #3f4567);
+  color: #ffffff;
 }
 
 .score-header {
-    width: 700px;
-    border: 1px solid white;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    height: 150px;      
-}
-
-.container { 
-    display: flex; 
-    flex-direction: column;
-    align-items:center;
-}
-
-.score {
-    width: 120px;
-    height: 110px;
-    background-color: #fff;
-    border-radius: 8px;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: solid rgb(248, 244, 244, 0.3) 2px;
 }
 
 .logo {
-    margin-left: 20px;
+  margin-right: auto;
 }
 
-.score p { 
-    color: hsl(229, 64%, 46%);
-    letter-spacing: 2px;
-    line-height: 15px;
-}
-.score h1 {
-    color: hsl(229, 25%, 31%);
-    font-size: 48px;
-}
-
-.hand {
-    border-radius: 50%;
-    box-shadow: 0px 8px 3px #cac8c8 inset;
-    padding: 40px;
-    background-color: #fff;
-    height: 195px;
-    position: absolute;
+.score {
+  width: 24%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: white;
+  border-radius: 7px;
+  margin: 5px 0px;
+  padding: 13px 15px;
+  display: flex;
+  flex-direction: column;
 }
 
-.hand-image {
-    position: relative;
-    margin-top: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-        
-}
-.paper {
-    border: 23px solid hsl(230, 89%, 62%);
-    margin-right: 20px;
-    position: relative;
-    left: -170px;
-    top: -90px;
+.score-name {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  color: #004e92;
 }
 
-.scissors {
-    border: 23px solid hsl(39, 89%, 49%);
-    margin-left: 300px;
-    top: -90px;
-}  
-
-.rock {
-    border: 23px solid hsl(349, 71%, 52%);
-    margin-top: 140px;
-    left: 65px;
+.score-number {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(0, 0, 0, 0.6);
 }
 
 .hands {
-    width: 350px;
-    height: 283px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 80px;
-    background-image: url(/images/bg-triangle.svg);
-    background-repeat: no-repeat;
-    background-size: 330px;
-    position: absolute;
-    top: 240px;
+  position: relative;
+  top: 55%;
+  right: 25%;
 }
 
-.hands  .hand{
-    cursor: pointer;
-    transition: 0.20s;
+.button {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  color: white;
+  background-color:azure;
+  border: 14px solid hsl(349, 71%, 52%);
+  text-align: center;
+  padding-top: 35px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
-.hands .hand:hover{
-    transform: translate3d(0px, -15px, 0px);
+.hand-paper {
+  position: absolute;
+  right: 80%;
+  bottom: 150%;
+  border-color:rgb(75, 67, 238) ;
 }
 
-/* Add a rules button */
+.hand-scissors {
+  position: absolute;
+  left: 80%;
+  bottom: 150%;
+  border-color: darkorange;
+}
+
+.hand-rock {
+  border-color:rgb(233, 42, 83)
+}
+
 .rules-btn {
     position: absolute;
     bottom: 2rem;
@@ -161,6 +140,7 @@ body {
 .rules_container .h2 {
     color: hsl(229, 25%, 31%);
 }
+<<<<<<< HEAD
 .scissors2{
     border: 23px solid hsl(39, 89%, 49%);
     border-radius: 50%;
@@ -208,3 +188,5 @@ body {
     align-items: center;
     justify-content: center;
 }
+=======
+>>>>>>> master

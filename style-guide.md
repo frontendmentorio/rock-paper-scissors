@@ -13,21 +13,26 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Scissors Gradient: hsl(39, 89%, 49%) to hsl(40, 84%, 53%)
-- Paper Gradient: hsl(230, 89%, 62%) to hsl(230, 89%, 65%)
-- Rock Gradient: hsl(349, 71%, 52%) to hsl(349, 70%, 56%)
-- Lizard Gradient: hsl(261, 73%, 60%) to hsl(261, 72%, 63%)
-- Spock Gradient: hsl(189, 59%, 53%) to hsl(189, 58%, 57%)
+- Gold 500: hsl(39, 89%, 49%)
+- Gold 600: hsl(28, 76%, 44%)
+- Blue 500: hsl(230, 89%, 62%)
+- Blue 700: hsl(229, 64%, 46%)
+- Red 600: hsl(349, 71%, 52%)
+- Red 800: hsl(347, 75%, 35%)
+- Purple 600: hsl(261, 73%, 60%)
+- Purple 700: hsl(261, 51%, 44%)
+- Light blue 400: hsl(189, 59%, 53%)
+- Light blue 500: hsl(194, 58%, 42%)
 
 ### Neutral
 
-- Dark Text: hsl(229, 25%, 31%)
-- Score Text: hsl(229, 64%, 46%)
-- Header Outline: hsl(217, 16%, 45%)
+- Navy 900 (dark text): hsl(229, 25%, 31%)
+- Blue 700 (score text): hsl(229, 64%, 46%)
+- Gray 600 (header outline): hsl(246, 11%, 37%)
 
 ### Background
 
-- Radial Gradient: hsl(214, 47%, 23%) to hsl(237, 49%, 15%)
+- Radial Gradient: hsl(214, 47%, 23%) to hsl(237, 48%, 15%)
 
 ## Fonts
 

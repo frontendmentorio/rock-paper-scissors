@@ -1,0 +1,11 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

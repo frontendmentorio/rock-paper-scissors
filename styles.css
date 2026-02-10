@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background: linear-gradient(to top, #000428, #3f4567);
+  color: #ffffff;
+}
+
+.score-header {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: solid rgb(248, 244, 244, 0.3) 2px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.score {
+  width: 24%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: white;
+  border-radius: 7px;
+  margin: 5px 0px;
+  padding: 13px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.score-name {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  color: #004e92;
+}
+
+.score-number {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.hands {
+  position: relative;
+  top: 55%;
+  right: 25%;
+}
+
+.button {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  color: white;
+  background-color:azure;
+  border: 14px solid hsl(349, 71%, 52%);
+  text-align: center;
+  padding-top: 35px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.hand-paper {
+  position: absolute;
+  right: 80%;
+  bottom: 150%;
+  border-color:rgb(75, 67, 238) ;
+}
+
+.hand-scissors {
+  position: absolute;
+  left: 80%;
+  bottom: 150%;
+  border-color: darkorange;
+}
+
+.hand-rock {
+  border-color:rgb(233, 42, 83)
+}
+
+.rules-btn {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background: none;
+    border-radius: 0.6rem;
+    border-color: #fff;
+    color: white;
+    padding: 0.6rem 2.5rem;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 23px;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+ 
+.rules{
+    position: relative;
+    /* margin-top: 100px; */
+    padding: 20px;
+}
+.rules_container{
+    background-color: #fff;
+    padding: 30px 30px;
+    align-items: center;
+    border-radius: 10px;
+}
+.rules_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+    
+}
+.close_btn{
+ border: none;
+ outline: none;
+ background: none;
+ font-size: 2rem;
+ cursor: pointer;
+}
+.image-rules{
+   padding: 1rem 2rem;
+}
+.rules_container .h2 {
+    color: hsl(229, 25%, 31%);
+}
